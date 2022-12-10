@@ -9,7 +9,7 @@
     "compress:css": "node-sass css/style.css css/style.css --output-style compressed",
     "build": "npm-run-all prefix:css compress:css",
     "serve": "npm run build && serve .",
-    "dev": "concurrently --kill-others \"npm run compile:scss\" \"serve .\""
+    "start": "concurrently --kill-others \"npm run compile:scss\" \"serve .\""
   },
   "author": "",
   "license": "GPL-3.0",
